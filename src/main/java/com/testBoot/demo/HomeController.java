@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {  
     @RequestMapping("/login")  
     public String hello(){  
-        return"Returns Login Code Here";  
+        return"Returns Login Code Here! check for auto deployment";  
     }  
 }  
